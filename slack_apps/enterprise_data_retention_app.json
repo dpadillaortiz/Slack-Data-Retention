@@ -1,0 +1,37 @@
+{
+    "display_information": {
+        "name": "Enterprise Data Retention"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "Enterprise Data Retention",
+            "always_online": false
+        }
+    },
+    "oauth_config": {
+        "scopes": {
+            "user": [
+                "admin.conversations:read"
+            ],
+            "bot": [
+                "channels:manage",
+                "channels:read",
+                "channels:write.topic",
+                "groups:read",
+                "groups:write",
+                "groups:write.topic",
+                "im:read",
+                "im:write",
+                "im:write.topic",
+                "mpim:read",
+                "mpim:write",
+                "mpim:write.topic"
+            ]
+        }
+    },
+    "settings": {
+        "org_deploy_enabled": true,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false
+    }
+}
