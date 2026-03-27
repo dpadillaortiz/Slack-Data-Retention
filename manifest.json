@@ -1,0 +1,51 @@
+{
+  "_metadata": {
+      "major_version": 1,
+      "minor_version": 1
+  },
+      "display_information": {
+        "name": "Enterprise Data Retention"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "Enterprise Data Retention",
+            "always_online": false
+        }
+    },
+    "oauth_config": {
+        "scopes": {
+            "user": [
+                "admin.conversations:read",
+                "admin.conversations:write"
+            ],
+            "bot": [
+                "channels:manage",
+                "channels:read",
+                "channels:write.topic",
+                "groups:read",
+                "groups:write",
+                "groups:write.topic",
+                "im:read",
+                "im:write",
+                "im:write.topic",
+                "mpim:read",
+                "mpim:write",
+                "mpim:write.topic"
+            ]
+        }
+    },
+    "settings": {
+        "interactivity": {
+            "is_enabled": true
+        },
+        "org_deploy_enabled": true,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false,
+        "event_subscriptions": {
+            "bot_events": [
+                "channel_created",
+                "channel_rename"
+            ]
+        }
+    }
+}
