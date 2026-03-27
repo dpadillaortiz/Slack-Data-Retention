@@ -1,0 +1,27 @@
+{
+    "display_information": {
+        "name": "Slack Administration",
+        "background_color": "#d32600"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "Slack Administration",
+            "always_online": false
+        }
+    },
+    "oauth_config": {
+        "scopes": {
+            "user": [
+                "admin.conversations:write"
+            ],
+            "bot": [
+                "chat:write"
+            ]
+        }
+    },
+    "settings": {
+        "org_deploy_enabled": true,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false
+    }
+}
